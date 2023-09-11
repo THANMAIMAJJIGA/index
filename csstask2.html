@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csstask2</title>
+    <style>
+        #table1 {
+            background-color: lightblue;
+            width: 15%;
+            border-collapse: collapse;
+            border: 3px solid white;
+            outline: 1px solid black;
+            color: blue;
+            font-size: 15px;
+        }
+
+        h1 {
+            font-size: 16px;
+        }
+
+
+        #table1 tr:hover {
+            background-color: rgb(255, 153, 0);
+            color: white;
+        }
+
+        #table1 td {
+            padding: 5px;
+            padding-right: 20px;
+        }
+
+        #table2 {
+            background-color: rgb(179, 172, 172);
+            text-align: center;
+            border-collapse: collapse;
+            width: auto;
+            border: 3px solid white;
+            outline: 1px solid black;
+            color: blue;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 16px;
+        }
+
+        #table2 tr {
+            display: inline-block;
+            width: auto;
+        }
+
+        #table2 a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: blue;
+            border-right: 1px solid blue;
+        }
+
+        #table2 a:last-child {
+            border-right: none;
+        }
+
+        #table2 td a:hover {
+            background-color: rgb(102, 98, 98);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>vertical navigation bar</h1>
+
+    <table id="table1">
+        <tr>
+            <td>Home</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+        </tr>
+    </table>
+    <h1>horizontal navigation bar</h1>
+    <table id="table2">
+        <tbody>
+            <tr>
+                <td>
+                    <a> Home</a>
+                    <a>Java</a>
+                    <a> HTML</a>
+                    <a> CSS</a>
+                    <a> </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
